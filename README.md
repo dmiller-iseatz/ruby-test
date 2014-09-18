@@ -7,11 +7,7 @@ These tests will be most easily accomplished by leveraging the [Enumerable](http
 3. Run ```bundle install```.
 
 ### Tests
-1. Generate an array of all possible cars preceeded with the manufacturer. Implement your solution in the run_test method of test_one.rb.
-  * Example: ["Dodge: Durango", "Ford: Bronco", ...]
-2. Given a list of cars, find all cars made between 1982 and 1993. Implement your solution in the run_test method of test_two.rb.
-3. Given a list of cars, remove any duplicates, sort by price, then make each car object a string in the format "<manufacturer>: <make> - <formatted price>" Implement your solution in the run_test method of test_three.rb.
-  * Example: ["Dodge: Durango - $1237.45", "Ford: Bronco - $4825.33", ...
+There are three tests to complete: ```test_one.rb```, ```test_two.rb```, and ```test_three.rb```. Each file contains instructions on how the test should be completed.
 
 ### Running Tests
 There are RSpec testing scripts for each of the three tests. The tests can be run individually or all together.
