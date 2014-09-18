@@ -1,0 +1,11 @@
+== Installation
+
+Installtion should be as simple as running `bundle install`.
+
+== Running the application
+
+The rails application can be started with `bundle exec rails s`
+
+== The Test
+
+Goto http://localhost:3000/cars to see what to do for the test.
