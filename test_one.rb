@@ -5,13 +5,13 @@ class TestOne
   #   manufacturer: A car manufacturer.
   #   models: An array of car models.
   #
-  # Implement the run_test method to genenerate an array of all possible cars.
+  # Implement the run_test method to generate an array of all possible cars.
   # Each array item should be a string in the form "manufacturer: model"
   #   Example:
   #   [ "Toyota: Camry", "Dodge: Durango", ... ]
 
   def run_test
-    # Add yout code here...
+    # Add your code here...
   end
 
 end
