@@ -15,7 +15,10 @@ class DataGenerator
     cars = (1..count).map { build_car }
     if dupes
       (count / 3).times do
-        cars[rand(count)] = cars[rand(count)]
+        duplicate = cars[rand(count)]
+        duplicate = duplicate.clone if dupes == 'clone'
+
+        cars[rand(count)] = duplicate
       end
     end
 
